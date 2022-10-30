@@ -1,0 +1,34 @@
+{
+  "name": "web_analytics_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizadaniilovna/web_analytics_server.git"
+  },
+  "author": "https://github.com/lizadaniilovna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizadaniilovna/web_analytics_server/issues"
+  },
+  "dependencies": {
+    "express-rate-limit": "^5.2.6",
+    "nodemon": "^2.0.15",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "morgan": "^1.10.0"
+  },
+  "homepage": "https://github.com/lizadaniilovna/web_analytics_server#readme"
+}
